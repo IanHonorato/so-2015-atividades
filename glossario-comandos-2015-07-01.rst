@@ -4,8 +4,8 @@ Glossário de comandos
 
 :Disciplina: Fundamentos de Sistemas Operacionais
 :Professor: Jurandy Soares
-:Nome: Seu nome completo
-:Matrícula: Sua matrícula
+:Nome: Ian Honorato Pereira
+:Matrícula: 20121144010257
 :Data: 01/07/2015
 
 cat
@@ -13,43 +13,43 @@ cat
 
 
 cd
-  Descrição do comando
+  Acessar Diretório
 
 
 cowsay
-  Descrição do comando
-
+  Animacao da Vaca, serve para enviar mensagens interligando com o write.
+  cowsay -f
 
 echo
-  Descrição do comando
-
+  Imprime um valor
+  echo %HOME%
 
 env
   Descrição do comando
 
 
 exit
-  Descrição do comando
+  Sair
 
 
 help
-  Descrição do comando
-
+  Ajuda
+  help -l
 
 HISTTIMEFORMAT="%d/%m/%y
-  Descrição do comando
+  Modifica o formato do History, fazendo com que se adicione a hora em que o comando foi utilizado. 
 
 
 hostname
-  Descrição do comando
+  Exibe o nome da máquina
 
 
 ifconfig
-  Descrição do comando
+  Exibe configurações em uso da máquina
 
 
 last
-  Descrição do comando
+  Ultimos logs ao ssh ou servidor
 
 
 lastb
@@ -57,23 +57,22 @@ lastb
 
 
 ls
-  Descrição do comando
+  Exibe os arquivos do diretorio atual
 
 
 mkdir
-  Descrição do comando
-
+  Criar diretorio, necessita de um argumento
 
 nome="fulano
-  Descrição do comando
+  Atribui um valor a variável
 
 
 passswd
-  Descrição do comando
+  Altera a senha
 
 
 pwd
-  Descrição do comando
+  Indica o diretorio atual
 
 
 set
@@ -81,16 +80,15 @@ set
 
 
 tree
-  Descrição do comando
+  Mostra os processos em uso
 
 
 tty
-  Descrição do comando
-
+  Acesso em que você está.
 
 vim
-  Descrição do comando
-
+  Abre o arquivo e edita
+  vim bin; vim bash; vim typespeed;
 
 wait
   Descrição do comando
@@ -109,13 +107,13 @@ while
 
 
 who
-  Descrição do comando
+  Itens logados
 
 
 whoami
-  Descrição do comando
+  Nome do seu usuario
 
 
     write
-        Descrição do comando
+        Escrever
 
