@@ -9,12 +9,12 @@ Glossário de comandos
 :Data: 01/07/2015
 
 cat
-  Descrição do comando
+  Leitura de um arquivo.
 
 
 cd
-  Acessar Diretório
-
+  Acessar Diretório ou somente voltar a um diretorio.
+  cd /home/ianhonorato;
 
 cowsay
   Animacao da Vaca, serve para enviar mensagens interligando com o write.
@@ -25,8 +25,8 @@ echo
   echo %HOME%
 
 env
-  Descrição do comando
-
+  Cita as variáveis de ambiente e pode iniciar um ambiente vazio, exclui uma determinada variavel ambiente.
+  -i; -u variavel;
 
 exit
   Sair
@@ -45,7 +45,7 @@ hostname
 
 
 ifconfig
-  Exibe configurações em uso da máquina
+  Exibe configurações em uso da máquina. Visualizar os ips da nossa máquina, entre outras funções relacionadas com ips.
 
 
 last
@@ -53,7 +53,7 @@ last
 
 
 lastb
-  Descrição do comando
+  Guarda informações das ultimas tentativas mal sucedidas de logar no sistema.
 
 
 ls
@@ -63,7 +63,7 @@ ls
 mkdir
   Criar diretorio, necessita de um argumento
 
-nome="fulano
+nome="fulano"
   Atribui um valor a variável
 
 
@@ -76,8 +76,7 @@ pwd
 
 
 set
-  Descrição do comando
-
+  Exibe, define ou remove variáveis de ambiente do cmd.exe.
 
 tree
   Mostra os processos em uso
@@ -91,19 +90,21 @@ vim
   vim bin; vim bash; vim typespeed;
 
 wait
-  Descrição do comando
+  É um comando que faz uma pausa até que a execução de um processo de fundo terminou.
 
 
 wall
-  Descrição do comando
+  Envia uma mensagem a todos os usuários do sistema. Este comando faz a leitura de um arquivo ou entrada padrão e escreve o resultado em todos os terminais onde existem usuários conectados. Somente o usuário root pode utilizar este comando.
+  wall /tmp/mensagem.txt, echo Teste de mensagem enviada a todos os usuários conectados ao sistema|wall
 
 
 which
-  Descrição do comando
+  which Exibe o caminho completo na hierarquia de diretórios para os comandos do sistema
+”which firefox” para exibir o diretório onde se encontra o programa “firefox”.
 
 
 while
-  Descrição do comando
+ Cria um laço
 
 
 who
@@ -117,3 +118,7 @@ whoami
     write
         Escrever
 
+    wget
+        baixa o codigo fonte
+        gunzip || gzip: descompacta
+        xvf desempacota
